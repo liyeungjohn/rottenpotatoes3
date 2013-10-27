@@ -1,0 +1,103 @@
+---
+Cucumber Features:
+  :original_result:
+    /home/saasbook/169/hw/hw4/rottenpotatoes/app/controllers/application_controller.rb:
+    - 1
+    - 1
+    - 
+    /home/saasbook/169/hw/hw4/rottenpotatoes/app/helpers/application_helper.rb:
+    - 1
+    - 
+    /home/saasbook/169/hw/hw4/rottenpotatoes/app/helpers/movies_helper.rb:
+    - 1
+    - 
+    - 1
+    - 0
+    - 
+    - 
+    /home/saasbook/169/hw/hw4/rottenpotatoes/app/controllers/movies_controller.rb:
+    - 1
+    - 
+    - 1
+    - 2
+    - 2
+    - 2
+    - 0
+    - 
+    - 
+    - 
+    - 1
+    - 3
+    - 3
+    - 
+    - 
+    - 
+    - 1
+    - 0
+    - 0
+    - 
+    - 0
+    - 
+    - 0
+    - 
+    - 0
+    - 0
+    - 
+    - 0
+    - 0
+    - 
+    - 
+    - 0
+    - 0
+    - 0
+    - 0
+    - 
+    - 
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 
+    - 0
+    - 
+    - 
+    - 1
+    - 
+    - 
+    - 
+    - 1
+    - 0
+    - 0
+    - 0
+    - 
+    - 
+    - 1
+    - 1
+    - 
+    - 
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 
+    - 
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+    - 
+    - 
+    - 
+    /home/saasbook/169/hw/hw4/rottenpotatoes/app/models/movie.rb:
+    - 1
+    - 1
+    - 0
+    - 
+    - 1
+    - 0
+    - 
+    - 
+  :created_at: 2013-10-27 10:50:24.918054790 -07:00

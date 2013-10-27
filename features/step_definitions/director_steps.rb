@@ -1,0 +1,13 @@
+#Background:
+Given /the following movies exist/ do |movies_table|
+  movies_table.hashes.each do |movie|
+    Movie.create!(movie);
+  end
+end
+
+#Scenario: add director to existing movie
+Then /^the director of "(.*)" should be "(.*)"$/ do |movieTitle, movieDirector|
+    curr = Movie.find(:first, :conditions => {:title => movieTitle}) 
+    assert curr.director == movieDirector
+end
+     
