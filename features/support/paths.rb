@@ -14,20 +14,22 @@ module NavigationHelpers
     case page_name
 
     when /^the home\s?page$/
-      '/'
-
+      movies_path
+    when /^the (RottenPotatoes )?home\s?page$/ then '/movies'
+    when /^the movies page$/ then '/movies'
     # Add more mappings here.
     # Here is an example that pulls values out of the Regexp:
     #
     #   when /^(.*)'s profile page$/i
     #     user_profile_path(User.find_by_login($1))
     when /^the edit page for "(.*)"$/i
-	edit_movie_path(Movie.find(:all, :conditions => {:title => $1}))       
+	edit_movie_path Movie.find_by_title($1)       
     
     when /^the details page for "(.*)"$/i
-	movie_path(Movie.find(:first, :conditions => {:title => $1}))       
-    #when /^the dSimilar Movies page for "(.*)"$/i
-	#movie_path(Movie.find(:all, :conditions => {:title => $1}))    
+	movie_path Movie.find_by_title($1)       
+    when /^the Similar Movies page for "(.*)"$/i
+	movie = Movie.find_by_title($1)
+	similar_movies_path    
 
     else
       begin

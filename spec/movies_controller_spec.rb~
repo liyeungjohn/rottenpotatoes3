@@ -1,0 +1,8 @@
+require 'spec_helper'
+require 'debugger'
+
+describe MoviesController do
+  it 'should ignore nonword characters' do
+    
+  end    
+end

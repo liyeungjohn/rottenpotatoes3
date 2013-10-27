@@ -3,8 +3,8 @@ class MoviesController < ApplicationController
   def similar
     currMovie = Movie.find(params[:id])
     @movies = Movie.find(:all, :conditions => {:director => currMovie.director})
-    if(@movies.empty?) 
-      redirect_to movies_path notice: "'#{currMovie.title}' has not director info"
+    if(currMovie.director.blank?) 
+      redirect_to movies_path, notice: "'#{currMovie.title}' has no director info"
     end
   end
 

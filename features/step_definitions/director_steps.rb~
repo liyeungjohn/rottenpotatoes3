@@ -10,5 +10,4 @@ Then /^the director of "(.*)" should be "(.*)"$/ do |movieTitle, movieDirector|
     curr = Movie.find(:first, :conditions => {:title => movieTitle}) 
     assert curr.director == movieDirector
 end
-      #Then the director of "Alien" should be "Ridley Scott"
-  
+     

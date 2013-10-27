@@ -18,6 +18,7 @@ Rottenpotatoes::Application.routes.draw do
       get 'similar'
     end
   end
+  root :to => redirect('/movies')
   # Sample resource route with options:
   #   resources :products do
   #     member do

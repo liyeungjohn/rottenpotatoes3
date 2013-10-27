@@ -22,7 +22,7 @@ Cucumber Features:
     - 2
     - 2
     - 2
-    - 0
+    - 1
     - 
     - 
     - 
@@ -33,43 +33,43 @@ Cucumber Features:
     - 
     - 
     - 1
-    - 0
-    - 0
+    - 15
+    - 15
     - 
-    - 0
+    - 3
     - 
-    - 0
+    - 3
     - 
-    - 0
-    - 0
+    - 15
+    - 15
     - 
-    - 0
-    - 0
-    - 
-    - 
-    - 0
-    - 0
-    - 0
-    - 0
+    - 15
+    - 42
     - 
     - 
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 
-    - 0
+    - 15
+    - 2
+    - 2
+    - 2
     - 
     - 
-    - 1
+    - 13
+    - 3
+    - 3
+    - 3
+    - 3
     - 
+    - 10
     - 
     - 
     - 1
-    - 0
-    - 0
-    - 0
+    - 
+    - 
+    - 
+    - 1
+    - 1
+    - 1
+    - 1
     - 
     - 
     - 1
@@ -94,10 +94,108 @@ Cucumber Features:
     /home/saasbook/169/hw/hw4/rottenpotatoes/app/models/movie.rb:
     - 1
     - 1
+    - 16
+    - 
+    - 
+    - 
+  :created_at: 2013-10-27 13:03:19.135819019 -07:00
+RSpec:
+  :original_result:
+    /home/saasbook/169/hw/hw4/rottenpotatoes/app/controllers/application_controller.rb:
+    - 1
+    - 1
+    - 
+    /home/saasbook/169/hw/hw4/rottenpotatoes/app/helpers/application_helper.rb:
+    - 1
+    - 
+    /home/saasbook/169/hw/hw4/rottenpotatoes/app/helpers/movies_helper.rb:
+    - 1
+    - 
+    - 1
+    - 2
+    - 
+    - 
+    /home/saasbook/169/hw/hw4/rottenpotatoes/app/controllers/movies_controller.rb:
+    - 1
+    - 
+    - 1
     - 0
+    - 0
+    - 0
+    - 0
+    - 
+    - 
+    - 
+    - 1
+    - 0
+    - 0
+    - 
+    - 
+    - 
+    - 1
+    - 0
+    - 0
+    - 
+    - 0
+    - 
+    - 0
+    - 
+    - 0
+    - 0
+    - 
+    - 0
+    - 0
+    - 
+    - 
+    - 0
+    - 0
+    - 0
+    - 0
+    - 
+    - 
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 
+    - 0
+    - 
+    - 
+    - 1
+    - 
+    - 
+    - 
+    - 1
+    - 0
+    - 0
+    - 0
+    - 
     - 
     - 1
     - 0
     - 
     - 
-  :created_at: 2013-10-27 10:50:24.918054790 -07:00
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+    - 
+    - 
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+    - 
+    - 
+    - 
+    /home/saasbook/169/hw/hw4/rottenpotatoes/app/models/movie.rb:
+    - 1
+    - 1
+    - 0
+    - 
+    - 
+    - 
+  :created_at: 2013-10-27 13:03:41.246199324 -07:00
